@@ -2,9 +2,9 @@
 First website
 
 Goals (Week of Feb 12-16):
-* Get familiar with the basics of HTML and CSS
-* Use HTML to create a basic list containing various links to contacts
-* Style the list using CSS
+* Get familiar with the basics of HTML and CSS - In Progress
+* Use HTML to create a basic list containing various links to contacts - Done!
+* Style the list using CSS - Done(?)
 
 Goals (Week of Feb 19-23):
 * Use CSS to add buttons and interactive elements to the website
