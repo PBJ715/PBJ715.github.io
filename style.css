@@ -4,4 +4,12 @@ body {
     background-color: #2c2f33;
     color:	#ffffff;
 }
+a:link{
+    background-color: transparent;
+    color: #0000FF;
+}
 
+a:visited{
+    background-color: transparent;
+    color: #00FFFF;
+}
