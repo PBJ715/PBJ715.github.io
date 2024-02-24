@@ -22,3 +22,8 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
+
+button{
+    background-color: #C8A2C8;
+    color: #ffffff;
+}
