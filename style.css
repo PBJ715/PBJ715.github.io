@@ -26,4 +26,6 @@ p {
 button{
     background-color: #C8A2C8;
     color: #ffffff;
+    width: 150px;
+    height: 100px;
 }
