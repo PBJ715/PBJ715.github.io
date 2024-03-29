@@ -4,6 +4,12 @@ body {
     background-color: #2c2f33;
     color:	#ffffff;
 }
+
+.intro{
+    text-align: center;
+    font-weight: bold;
+}
+
 a:link{
     background-color: transparent;
     color: #0000FF;
