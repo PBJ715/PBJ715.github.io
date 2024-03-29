@@ -5,6 +5,11 @@ body {
     color:	#ffffff;
 }
 
+.title{
+    font-weight: bold;
+    text-align: center;
+}
+
 .intro{
     text-align: center;
     font-weight: bold;
