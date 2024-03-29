@@ -25,6 +25,11 @@ a:hover{
     color: #00FFFF;
     opacity: 0.5;
 }
+
+a:focus{
+    outline: none;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
