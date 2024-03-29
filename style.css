@@ -28,4 +28,28 @@ button{
     color: #ffffff;
     width: 150px;
     height: 100px;
+    border-radius: 5px;
+}
+
+.dark{
+    background-color: #2c2f33;
+    color:	#ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.dark:hover{
+    background-color: #000000;
+    
+}
+
+.light{
+    background-color: #ffffff;
+    color:	#000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
 }
