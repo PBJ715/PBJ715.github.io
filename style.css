@@ -81,7 +81,7 @@ p {
     padding-top: 30px;
     padding-bottom:30px;
     border-radius: 3px;
-    border-right-color: #ffffff;
+    border-color: #ffffff;
     margin-top: 30px;
     cursor: pointer;
     transition: box-shadow 0.3s;
