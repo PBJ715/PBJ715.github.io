@@ -56,8 +56,8 @@ button{
     padding-top: 30px;
     padding-bottom:30px;
     margin-right: 20px;
+    cursor: pointer;
     transition: opacity 1s;
-    vertical-align: top;
 }
 
 .rroll:hover{
@@ -72,6 +72,7 @@ button{
     padding-top: 30px;
     padding-bottom:30px;
     border-radius: 3px;
+    margin-top: 10px;
     cursor: pointer;
     transition: opacity 1s;
 }
@@ -90,6 +91,7 @@ button{
     padding-bottom:30px;
     border-radius: 3px;
     border-right-color: #ffffff;
+    margin-top: 10px;
     cursor: pointer;
     transition: box-shadow 0.3s;
 }
