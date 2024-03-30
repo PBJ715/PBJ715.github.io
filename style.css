@@ -56,9 +56,8 @@ button{
     padding-top: 30px;
     padding-bottom:30px;
     margin-right: 20px;
-    margin-top: 10px;
     transition: opacity 1s;
-    vertical-align: auto;
+    vertical-align: top;
 }
 
 .rroll:hover{
