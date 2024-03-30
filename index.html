@@ -13,16 +13,16 @@
         <header>
             <ul>
                 <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/jerry-liu-088419241/">LinkedIn</a>
+                    <a id="linkedIn" target="_blank" href="https://www.linkedin.com/in/jerry-liu-088419241/">LinkedIn</a>
                 </li>
                 <li>
                     Email: jerry.lyc715@gmail.com
                 </li>
                 <li>
-                    <a target="_blank" href="https://github.com/PBJ715">GitHub</a>
+                    <a id="gitHub" target="_blank" href="https://github.com/PBJ715">GitHub</a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://PBJ715.github.io/contacts">Miscellaneous Contacts</a>
+                    <a id="misc" target="_blank" href="https://PBJ715.github.io/contacts">Miscellaneous Contacts</a>
                 </li>
             </ul>
         </header>
@@ -56,14 +56,18 @@
             document.body.style.backgroundColor="#2c2f33";
             document.body.style.color="#ffffff";
             document.body.style.transition="background-color 2s, color 2s";
-            document.anchors.style.color="#3f83e1";
+            document.getElementById("linkedIn").style.color="#3f83e1";
+            document.getElementById("gitHub").style.color="#3f83e1";
+            document.getElementById("misc").style.color="#3f83e1";
         }
 
         function lightMode(){
             document.body.style.backgroundColor="#ffffff";
             document.body.style.color="#000000";
             document.body.style.transition="background-color 2s, color 2s";
-            document.anchors.style.color="#0000EE";
+            document.getElementById("linkedIn").style.color="#0000EE";
+            document.getElementById("gitHub").style.color="#0000EE";
+            document.getElementById("misc").style.color="#0000EE";
         }
 
         function rickroll(){
