@@ -11,6 +11,15 @@ body {
     margin-top:0;
 }
 
+header{
+    border:solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+    padding: 0 5%;
+}
+
 .title{
     font-size:x-large;
     font-weight: bold;
