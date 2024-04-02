@@ -3,11 +3,51 @@ body {
     font-size: large;
     background-color: #2c2f33;
     color:	#ffffff;
+    margin-top:0;
 }
 
 .title{
+    font-size:x-large;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align:middle;
+}
+
+.title-header{
+    display: block
+}
+
+.title-inside1{
+    display:inline-block;
+}
+
+.github-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:50px;
+}
+
+
+.linkedin-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:50px;
+}
+
+.about-me{
+    font-size:x-large;
+    font-weight:bold;
+    display: inline-block;
+    margin-right:50px;
+    vertical-align:middle;
 }
 
 .intro{
@@ -81,6 +121,12 @@ p {
     opacity: 0.7;
 }
 
+.dark-mode{
+    background-color: #2c2f33;
+    color:	#ffffff;
+    transition: background-color 2s, color 2s;
+}
+
 .light{
     background-color: #ffffff;
     color:	#000000;
@@ -99,6 +145,12 @@ p {
 .light:hover{
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1);
     opacity: 0.7;
+}
+
+.light-mode{
+    background-color: #ffffff;
+    color:	#000000;
+    transition: background-color 2s, color 2s;
 }
 
 .flex-container{
