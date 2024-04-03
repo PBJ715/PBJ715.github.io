@@ -13,6 +13,9 @@ body {
     color: #ffffff;
     padding: 0 10px;
 }
+ul{
+    margin-top: 15px;
+}
 a:link{
     background-color: transparent;
     color: #3f83e1;
