@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: #2c2f33;
+    color: #ffffff;
+    padding: 0 10px;
+}
+a:link{
+    background-color: transparent;
+    color: #3f83e1;
+}
+
+a:visited{
+    background-color: transparent;
+    color: #00FFFF;
+}
+
+a:hover{
+    background-color: transparent;
+    color: #00FFFF;
+    opacity: 0.8;
+}
+
+a:active{
+    background-color: transparent;
+    color: #3f83e1;
+}

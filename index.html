@@ -7,12 +7,12 @@
     <meta name="description" content="Portfolio Website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>PBJ715's Website</title>
+    <title>Jerry's Website</title>
 </head>
 <body>
     <div class="title-header">
         <header>
-            <h1 class="title">Jerry Liu</h1>
+            <h1 class="name">Jerry Liu</h1>
             <nav>
                 <div class="title-inside1">
                     <p>
@@ -29,58 +29,26 @@
                     </p>
                 </div>
                 <div class="title-inside1">
-                    <a class="about-me" target="_blank" href="/about-me/">
+                    <a class="about-me-anchor" href="about.html">
                         <h1 class="title">About Me</h1>
+                    </a>
+                </div>
+                <div class="title-inside1">
+                    <a href="contacts.html" class="contacts">
+                        <h1 class="title">Contact Me</h1>
                     </a>
                 </div>
             </nav>
         </header>
     </div>
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a second year Electrical Engineering student at the University of British Columbia. Some hobbies of mine include music,
-            math, snowboarding, watching anime, and gaming. 
-        </p>
-        
-    </section>
+    <div id="">
 
-    <section>
-        <h2>This Website</h2>
-        <p>
-            If you have stumbled across my website, welcome! Hopefully you have found this website after I've been working on it for some time, and not during its early development stages
-            (If you're reading this before March 2024, I am so sorry).
-            This website is a project of mine that I started working on during academic leave with the goal of
-            using it as a means to further familiarize myself with HTML, CSS, and JavaScript.
-        </p>
-    </section>
-    <div class="flex-container">
+    </div>
+    <div class="buttons">
         <div><button class="rroll" type="button" title="Click it." onclick="rickroll()">Unsuspecting Button</button></div>
         <div><button class="dark" type="button" onclick="darkMode()" title="Change to Dark Mode">Dark Mode</button></div>
         <div><button class="light" type="button" onclick="lightMode()" title="Change to Light Mode">Light Mode</button></div>
     </div>
-    <script>
-        function darkMode(){
-            document.body.style.backgroundColor="#2c2f33";
-            document.body.style.color="#ffffff";
-            document.body.style.transition="background-color 2s, color 2s";
-            document.getElementById("linkedIn").style.color="#3f83e1";
-            document.getElementById("gitHub").style.color="#3f83e1";
-            document.getElementById("misc").style.color="#3f83e1";
-        }
-
-        function lightMode(){
-            document.body.style.backgroundColor="#ffffff";
-            document.body.style.color="#000000";
-            document.body.style.transition="background-color 2s, color 2s";
-            document.getElementById("linkedIn").style.color="#0000EE";
-            document.getElementById("gitHub").style.color="#0000EE";
-            document.getElementById("misc").style.color="#0000EE";
-        }
-
-        function rickroll(){
-            window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','_blank');
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

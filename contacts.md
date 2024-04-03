@@ -1,1 +1,0 @@
-Instagram: jerry.lyc
